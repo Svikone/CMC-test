@@ -37,7 +37,7 @@
                 <div class="image">
                     <img src="./img/Очищающее молочко .jpg" alt="">
                     <div class="price_container">
-                        <div class="price_scale">39.90$</div><!--правильно ли написал скидка -->
+                        <div class="action_price">39.90$</div>
                         <div class="price">285.00$</div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                 <div class="image">
                     <img src="./img/Маска для комбинированной кожи.jpg" alt="">
                     <div class="price_container">
-                        <div class="price_scale">39.90$</div><!--правильно ли написал скидка -->
+                        <div class="action_price">39.90$</div>
                         <div class="price">384.00$</div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                 <div class="image">
                     <img src="./img/Маска грязевая.jpg" alt="">
                     <div class="price_container">
-                        <div class="price_scale">39.90$</div><!--правильно ли написал скидка -->
+                        <div class="action_price">39.90$</div>
                         <div class="price">190.00$</div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                 <div class="image">                 
                     <img src="./img/Крем для рук.jpg" alt="">
                     <div class="price_container">
-                        <div class="price_scale">39.90$</div><!--правильно ли написал скидка -->
+                        <div class="action_price">39.90$</div>
                         <div class="price">262.00$</div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                 <div class="image">                 
                     <img src="./img/Крем для тела.jpg" alt="">
                     <div class="price_container">
-                        <div class="price_scale">39.90$</div><!--правильно ли написал скидка -->
+                        <div class="action_price">39.90$</div>
                         <div class="price">262.00$</div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@
                 <div class="image">                 
                     <img src="./img/Маска для комбинированной кожи.jpg" alt="">
                     <div class="price_container">
-                        <div class="price_scale">39.90$</div><!--правильно ли написал скидка -->
+                        <div class="action_price">39.90$</div>
                         <div class="price">262.00$</div>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
                 <div class="image">                 
                     <img src="./img/Гель для умывания.jpg" alt="">
                     <div class="price_container">
-                        <div class="price_scale">39.90$</div><!--правильно ли написал скидка -->
+                        <div class="action_price">39.90$</div>
                         <div class="price">262.00$</div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@
                 <div class="image">                 
                     <img src="./img/Бальзам после бритья.jpg" alt="">
                     <div class="price_container">
-                        <div class="price_scale">39.90$</div><!--правильно ли написал скидка -->
+                        <div class="action_price">39.90$</div>
                         <div class="price">262.00$</div>
                     </div>
                 </div>
@@ -189,19 +189,31 @@
     </main>
 
     <div class=" reviews_container">
-        <div class="screenshot">
+        <div class="screenshot text-center">
+            <h3>Отзывы наших покупателей</h3>
         </div>
     </div>
 
     <div class="application_panel text-center">
         <h3>Оставьте заявку на косметику по акционой цене</h3>
-        <span>(пЫочтовая пересылка по Израилю - бесплатно)</span>
+        <span>(почтовая пересылка по Израилю - бесплатно)</span>
         <div class="lead m-auto">
             В течение 1 дня консультант свяжеться с вами для ответа на все вопросы о качестве косметики,
             ее преимуществах, согласование списка товаров и оформление заказов.
         </div>
-        <form action="">
-    
+        <form action="" class="">
+            <div class="wrapper d-flex">
+                <div class="form-group">
+                    <label >Имя<span>*</span></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Как вас зовут">
+                </div>
+                <div class="form-group">
+                    <label >Телефон<span>*</span></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="05...">
+                </div>
+
+            </div>
+            <button type="submit" class="btn btn-primary">Послать данные</button>
         </form>
     </div>
 
@@ -209,16 +221,43 @@
         <div class="container">
             <div class="row">
                 <div class="logo"></div>
-                <div class="col-5">
-                    <div class="copyright_text">
-                        © 2010–2020. <span>Lavier Cosmetics.</span> Все права защищены.
+                <div class="col-7 d-inline align-self-end copyright_text">
+                    <div class="">
+                        © 2018–2019. <span>Lavier Cosmetics.</span> Все права защищены.
                     </div>
                     <div class="phone">
-                        Заказы по тел: 1-700-72-74-74 (вс-чт: 9:00-21:00/пт: 9:00-15:00)
+                        Заказы по тел: <span>1-700-72-74-74</span>(вс-чт: 9:00-21:00/пт: 9:00-15:00)
                     </div>
                 </div>
-                <div class="col-3">Мы в Facebook</div>
+                <div class="facebook">Мы в Facebook</div>
 
+            </div>
+
+            <div class="row company_info">
+                Бренд Lavier Cosmetics (часть зраильско-французской косметической компании Lavier Cosmetics France ltd.) 
+                представлен на израильском рынке компанией Lavier Israel (рег.н. 51405497) и социальным медиа проектом, 
+                клубом Бон Аппетит Израиль. Контактные данные, оставленные на этой странице говорят о том что вы заинтересовались
+                данным товаром и/или услугой и соглашаетесь, чтобы наш консультант связался с вами. </br>
+                Мы гарантируем, что ваши контактные данные не будут переданы третьим лицам и/или использованы в сторонних маркетинговых кампаниях. 
+                </br>
+                <p> 
+                    Попав на данную страницу, вы соглашаетесь с <span>Политикой конфиденциальности данных.</span>
+                </p>
+            </div>
+
+            <div class="row d-flex list">
+                <div class="col-8 d-flex justify-content-between wrapper">
+                    <div class=""><img class="img" src="./img/1.svg" alt=""></div>
+                    <div class=""><img class="img" src="./img/2.svg" alt=""></div>
+                    <div class=""><img class="img" src="./img/3.svg" alt=""></div>
+                    <div class=""><img class="img" src="./img/5.svg" alt=""></div>
+                </div>
+                <div class="col-4">
+                    <p>Методы оплаты</p>
+                    <div class="payment">
+                        ацмвы
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
