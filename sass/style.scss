@@ -17,6 +17,20 @@ img {
 
 }
 
+.btn_tomato {
+    width:190px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #e17976;
+    border: 1px solid #e17976;
+}
+
+.btn_mobile {
+    display: none;
+}
+
 header {
     background-image: url(../img/1.jpg);
     background-size: cover;
@@ -38,7 +52,7 @@ header {
             text-align: center;
 
             .title {
-                margin-top: 97px;
+                margin-top: 100px;
                 font-weight: bold;
                 font-size: 27px;
                 color: #e07977;
@@ -48,7 +62,12 @@ header {
                 width: 800px;
                 margin: auto;
                 margin-top: 35px;
-                font-size: 16.2px;
+                // font-size: 16.2px;
+                font-size: 0.94em;
+            }
+
+            a {
+                margin: auto;
             }
 
         }
@@ -72,7 +91,7 @@ main {
             align-self: start;
             margin-left: 30px;
 
-            &:nth-child(n+4) {
+            &:nth-child(n+6) {
                 margin-top: 34px;
             }
 
@@ -115,15 +134,15 @@ main {
 
             }
 
-            button {
-                width:190px;
-                margin-top: 20px;
-                text-transform: uppercase;
-                font-size: 14px;
-                font-weight: bold;
-                background-color: #e17976;
-                border: 1px solid #e17976;
-            }
+            // button {
+            //     width:190px;
+            //     margin-top: 20px;
+            //     text-transform: uppercase;
+            //     font-size: 14px;
+            //     font-weight: bold;
+            //     background-color: #e17976;
+            //     border: 1px solid #e17976;
+            // }
 
         }
 
@@ -275,5 +294,139 @@ footer {
 
     }
 
+}
+
+@media screen and (max-width: 768px) {
+
+    .logo {
+        margin: auto;
+    }
+
+    .btn_desktop {
+        display: none;
+    }
+
+    .modal {
+        padding: 20px;  
+
+        .modal-dialog {
+
+            .modal-content {
+
+                .modal-header {
+                    padding: 1rem 1rem 0rem 1rem!important;
+                    border: none;
+                }
+
+                .modal-body {
+
+                    .title {
+                        font-weight: bold;
+                        font-size: 20px !important;
+                        color: #e07977;
+                    }
+
+                    .content {
+                        font-size: 16px;
+                        line-height: 18px;
+                        padding-top: 1rem;
+                        letter-spacing: -0.6px;
+                    }
+                }
+
+                .modal-footer {
+                    border: none;
+
+                    a {
+                        margin: auto;
+                    }
+
+                    .btn_mobile {
+                        width: 138px;
+                        padding: 15px 10px 15px 10px;
+                        margin-top: 0px!important;
+                    }
+                }
+            }
+        }
+    }
+
+    .btn_mobile {
+        display: block !important;
+        width: 240px;
+        padding: 15px;
+        margin: auto;
+        margin-top: 40px!important;
+    }
+
+    header {
+        
+        .info {
+            display: none;
+        }
+
+        .title {
+            margin-top: 90px !important;
+        }
+
+        
+        
+    }
+
+    main {
+        padding-top: 40px;
+
+        .item {
+            margin: 16px!important;
+        }
+    }
+
+    .reviews_container {
+
+        .screenshot {
+            margin-left: 0%!important;
+        }
+    }
+
+    .application_panel {
+        padding-bottom: 40px;
+
+        form {
+            margin: 15px!important;   
+    
+            .wrapper {
+                flex-direction: column;
+    
+                .form-group {
+                    margin-left: 0px!important;
+                }
+            }
+        }
+
+    }
+
+    footer {
+
+        .container {
+
+            .logo {
+                margin: auto!important;
+                
+            }
+
+            .copyright_text, .facebook, .company_info, .list {
+                display: none!important;
+            }
+
+            // .facebook {
+            //     display: none;
+            // }
+
+            // .company_info {
+            //     display: none;
+
+            // }
+        }
+    }
 }
             

@@ -25,20 +25,31 @@
                 <div class="content">
                     Компания Levier - передавая косметическая компания, работаящуя с учеными Loreal Paris. 
                     В основе нашей продукции натуральные компоненты жемчужный порошок, 
-                    растительные экстракты и нанозолото. Наша косметика обладает омолаживающим действием Средство представлены в мужской и женской сериях. 
+                    растительные экстракты и нанозолото. Наша косметика обладает омолаживающим действием. 
+                    Средства представлены в мужской и женской сериях. 
                 </div>
+                <a href="#products">
+                    <button class="btn btn-danger btn-lg btn_tomato btn_mobile m-auto">
+                        Смотреть товары
+                    </button>
+                </a>
             </div>
         </div>
     </header>
+
     <main class="m-auto">
         <div class="container-fluid d-flex flex-wrap justify-content-center">
-              <!-- <div class="row"> -->
-            <div class=" item">
+            <div class="item">
+                <a name="products"></a>
                 <div class="image">
                     <img src="./img/Очищающее молочко .jpg" alt="">
                     <div class="price_container">
-                        <div class="action_price">39.90$</div>
-                        <div class="price">285.00$</div>
+                        <div class="action_price">
+                            39.90<span>&#8362</span>
+                        </div>
+                        <div class="price">
+                            285.00<span>&#8362</span>
+                        </div>
                     </div>
                 </div>
                 <div class="wrapper">
@@ -48,7 +59,40 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-danger btn-lg">Подробнее</button>
+                    <a href="#anchor">
+                        <button class="btn btn-danger btn-lg btn_tomato btn_desktop">Подробнее</button>
+                    </a>
+
+                    <button type="button" class="btn btn-danger btn-lg btn_tomato btn_mobile m-auto" data-toggle="modal" data-target="#staticBackdrop">
+                        Смотреть товары
+                    </button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="./img/Очищающее молочко .jpg" alt="">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="title">Очищающее молочко</div>
+                            <div class="content">
+                                Эффективно очищает, питает и увлажняет кожу благодаря гармоничному сочитанию
+                                биологически активных микроелементов жемчугов, масла шиа и пчелиного воска. 
+                                Подходит для самой чувствительной кожи и не требует смывание водой.
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#anchor">
+                                <button type="button" class="btn btn-danger btn-lg btn_tomato btn_mobile m-auto" >Хочу!</button>
+                            </a>  
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -56,8 +100,12 @@
                 <div class="image">
                     <img src="./img/Маска для комбинированной кожи.jpg" alt="">
                     <div class="price_container">
-                        <div class="action_price">39.90$</div>
-                        <div class="price">384.00$</div>
+                        <div class="action_price">
+                            39.90<span>&#8362</span>
+                        </div>
+                        <div class="price">
+                            285.00<span>&#8362</span>
+                        </div>
                     </div>
                 </div>
                 <div class="wrapper">
@@ -67,16 +115,54 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-danger btn-lg">Подробнее</button>
+                    <a href="#anchor">
+                        <button class="btn btn-danger btn-lg btn_tomato btn_desktop">Подробнее</button>
+                    </a>
+
+                    <button type="button" class="btn btn-danger btn-lg btn_tomato btn_mobile m-auto" data-toggle="modal" data-target="#staticBackdrop">
+                        Смотреть товары
+                    </button>
                 </div>
             </div>
+
+            <!-- Modal -->
+            <!-- <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <img src="./img/Очищающее молочко .jpg" alt="">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="title">Очищающее молочко</div>
+                            <div class="content">
+                                Эффективно очищает, питает и увлажняет кожу благодаря гармоничному сочитанию
+                                биологически активных микроелементов жемчугов, масла шиа и пчелиного воска. 
+                                Подходит для самой чувствительной кожи и не требует смывание водой.
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <a href="#anchor">
+                                <button type="button" class="btn btn-danger btn-lg btn_tomato btn_mobile m-auto">Хочу!</button>
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+            </div> -->
 
             <div class=" item">
                 <div class="image">
                     <img src="./img/Маска грязевая.jpg" alt="">
                     <div class="price_container">
-                        <div class="action_price">39.90$</div>
-                        <div class="price">190.00$</div>
+                        <div class="action_price">
+                            39.90<span>&#8362</span>
+                        </div>
+                        <div class="price">
+                            285.00<span>&#8362</span>
+                        </div>
                     </div>
                 </div>
                 <div class="wrapper">
@@ -86,7 +172,9 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-danger btn-lg">Подробнее</button>
+                    <a href="#anchor">
+                        <button class="btn btn-danger btn-lg btn_tomato btn_desktop">Подробнее</button>
+                    </a>
                 </div>
             </div>
 
@@ -94,8 +182,12 @@
                 <div class="image">                 
                     <img src="./img/Крем для рук.jpg" alt="">
                     <div class="price_container">
-                        <div class="action_price">39.90$</div>
-                        <div class="price">262.00$</div>
+                        <div class="action_price">
+                            39.90<span>&#8362</span>
+                        </div>
+                        <div class="price">
+                            285.00<span>&#8362</span>
+                        </div>
                     </div>
                 </div>
                 <div class="wrapper">
@@ -105,7 +197,9 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-danger btn-lg">Подробнее</button>
+                    <a href="#anchor">
+                        <button class="btn btn-danger btn-lg btn_tomato btn_desktop">Подробнее</button>
+                    </a>
                 </div>
             </div>
 
@@ -113,8 +207,12 @@
                 <div class="image">                 
                     <img src="./img/Крем для тела.jpg" alt="">
                     <div class="price_container">
-                        <div class="action_price">39.90$</div>
-                        <div class="price">262.00$</div>
+                        <div class="action_price">
+                            39.90<span>&#8362</span>
+                        </div>
+                        <div class="price">
+                            285.00<span>&#8362</span>
+                        </div>
                     </div>
                 </div>
                 <div class="wrapper">
@@ -124,7 +222,9 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-danger btn-lg">Подробнее</button>
+                    <a href="#anchor">
+                        <button class="btn btn-danger btn-lg btn_tomato btn_desktop">Подробнее</button>
+                    </a>
                 </div>
             </div>
 
@@ -132,8 +232,12 @@
                 <div class="image">                 
                     <img src="./img/Маска для комбинированной кожи.jpg" alt="">
                     <div class="price_container">
-                        <div class="action_price">39.90$</div>
-                        <div class="price">262.00$</div>
+                        <div class="action_price">
+                            39.90<span>&#8362</span>
+                        </div>
+                        <div class="price">
+                            285.00<span>&#8362</span>
+                        </div>
                     </div>
                 </div>
                 <div class="wrapper">
@@ -143,7 +247,9 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-danger btn-lg">Подробнее</button>
+                    <a href="#anchor">
+                        <button class="btn btn-danger btn-lg btn_tomato btn_desktop">Подробнее</button>
+                    </a>
                 </div>
             </div>
 
@@ -151,8 +257,12 @@
                 <div class="image">                 
                     <img src="./img/Гель для умывания.jpg" alt="">
                     <div class="price_container">
-                        <div class="action_price">39.90$</div>
-                        <div class="price">262.00$</div>
+                        <div class="action_price">
+                            39.90<span>&#8362</span>
+                        </div>
+                        <div class="price">
+                            285.00<span>&#8362</span>
+                        </div>
                     </div>
                 </div>
                 <div class="wrapper">
@@ -162,7 +272,9 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-danger btn-lg">Подробнее</button>
+                    <a href="#anchor">
+                        <button class="btn btn-danger btn-lg btn_tomato btn_desktop">Подробнее</button>
+                    </a>
                 </div>
             </div>
 
@@ -170,8 +282,12 @@
                 <div class="image">                 
                     <img src="./img/Бальзам после бритья.jpg" alt="">
                     <div class="price_container">
-                        <div class="action_price">39.90$</div>
-                        <div class="price">262.00$</div>
+                        <div class="action_price">
+                            39.90<span>&#8362</span>
+                        </div>
+                        <div class="price">
+                            285.00<span>&#8362</span>
+                        </div>
                     </div>
                 </div>
                 <div class="wrapper">
@@ -181,7 +297,9 @@
                     </div>
                 </div>
                 <div class="text-center">
-                    <button class="btn btn-danger btn-lg">Подробнее</button>
+                    <a href="#anchor">
+                        <button class="btn btn-danger btn-lg btn_tomato btn_desktop">Подробнее</button>
+                    </a>
                 </div>
             </div>
 
@@ -195,6 +313,7 @@
     </div>
 
     <div class="application_panel text-center">
+        <a name="anchor"></a>
         <h3>Оставьте заявку на косметику по акционой цене</h3>
         <span>(почтовая пересылка по Израилю - бесплатно)</span>
         <div class="lead m-auto">
@@ -245,7 +364,7 @@
                 </p>
             </div>
 
-            <div class="row d-flex list">
+            <div class="row d-flex list ">
                 <div class="col-8 d-flex justify-content-between wrapper">
                     <div class=""><img class="img" src="./img/1.svg" alt=""></div>
                     <div class=""><img class="img" src="./img/2.svg" alt=""></div>
@@ -265,6 +384,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
     crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
     crossorigin="anonymous"></script>
